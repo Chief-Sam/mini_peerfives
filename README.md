@@ -26,3 +26,8 @@ The admin must be able add any number of users and perform above actions.
 1)Users List View
 2)New User
 3)View User
+
+Screenshots:
+
+![image](https://user-images.githubusercontent.com/41536459/155509916-963e11c4-269a-4bdc-a3ba-c4148119969b.png)
+![image](https://user-images.githubusercontent.com/41536459/155510053-307e9114-c308-42d9-ba2a-50004f4dffbb.png)
