@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Peerfives</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <div class="container">
+          <div class="text-center">
+            <a href="/" class="nav-brand text-dark">User Mgmt Sys</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--main section-->
+    <main id="site-main">
+      <div class="container">
+        <div class="box-nav d-flex justify-between">
+          <a href="/add-user" class="border-shadow">
+            <span class="text-gradient"
+              >New User <i class="fa-solid fa-user"></i
+            ></span>
+          </a>
+        </div>
+        <!--form-->
+        <form action="/" method="POST">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>P5 balance</th>
+                <th>Reward balance</th>
+                <th>Login</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Person A</td>
+                <td>100</td>
+                <td>0</td>
+                <td>
+                  <a href="#" class="btn border-shadow update">
+                    <span class="text-gradient"
+                      ><i class="fa-solid fa-plus"></i
+                    ></span>
+                  </a>
+                </td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
